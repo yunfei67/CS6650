@@ -1,0 +1,17 @@
+server:
+#  url: http://localhost:8080/skiers
+
+   url: http://50.112.227.133:8080/skiers
+#   url: http://LB-2-Server-2104101047.us-west-2.elb.amazonaws.com/skiers
+#   url: http://LB-4-Server-1822368729.us-west-2.elb.amazonaws.com/skiers
+
+appConfig:
+#  Phase 1: 32 threads, 1000 requests per thread
+  phaseOneThreadsNum: 32
+  numRequestsPerThread: 1000
+#  Phase 2: threads num, no limit on the number of requests per thread
+  phaseTwoThreadsNum: 32
+
+  retryTimes: 100
+output:
+  outputFileName: request_records.csv

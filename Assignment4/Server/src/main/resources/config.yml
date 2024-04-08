@@ -1,0 +1,16 @@
+# RabbitMQ configuration
+rabbitmq:
+  host: "172.31.31.153"
+  port: 5672
+  queueName: "SkierQueue"
+
+# Database configuration
+redis:
+  host: "172.31.26.164"
+  port: 6379
+
+# Circuit breaker configuration
+circuitBreaker:
+  enabled: false
+  openingThreshold: 10000
+  closingThreshold: 8000
