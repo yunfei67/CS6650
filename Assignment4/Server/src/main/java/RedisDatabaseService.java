@@ -36,7 +36,7 @@ public class RedisDatabaseService implements DatabaseService {
   public long getSkiersForDay(String resortId, String seasonId, String skiDay) {
     try (Jedis jedis = jedisPool.getResource()) {
       String skiersDayKey = String.format("resort:%s:season:%s:day:%s:skiers", resortId, seasonId, skiDay);
-      return jedis.smembers(skiersDayKey).size();
+      return jedis.scard(skiersDayKey);
     }
   }
 
