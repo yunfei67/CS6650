@@ -1,4 +1,3 @@
-import java.util.Set;
 import redis.clients.jedis.Jedis;
 import redis.clients.jedis.JedisPool;
 import redis.clients.jedis.Pipeline;

@@ -15,7 +15,7 @@ public class MainApplication {
   private static final String RABBITMQ_PASSWORD = "admin";
   private static final String RABBITMQ_HOST = "172.31.31.153";
   private static final int RABBITMQ_PORT = 5672;
-  private static final String REDIS_HOST = "172.31.26.164";
+  private static final String REDIS_HOST = "172.31.29.157";
   private static final int REDIS_PORT = 6379;
   private static final int THREADS = 300;
 

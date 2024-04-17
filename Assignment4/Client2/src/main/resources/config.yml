@@ -1,9 +1,9 @@
 server:
 #  url: http://localhost:8080/skiers
 
-   url: http://50.112.227.133:8080/skiers
-#   url: http://LB-2-Server-2104101047.us-west-2.elb.amazonaws.com/skiers
-#   url: http://LB-4-Server-1822368729.us-west-2.elb.amazonaws.com/skiers
+  # url: http://50.112.227.133:8080/skiers
+  # url: http://LB-2-Server-2104101047.us-west-2.elb.amazonaws.com/skiers
+  url: http://LB-4-Server-203325420.us-west-2.elb.amazonaws.com/skiers
 
 appConfig:
 #  Phase 1: 32 threads, 1000 requests per thread

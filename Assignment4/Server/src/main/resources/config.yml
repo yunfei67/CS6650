@@ -6,7 +6,7 @@ rabbitmq:
 
 # Database configuration
 redis:
-  host: "172.31.26.164"
+  host: "172.31.29.157"
   port: 6379
 
 # Circuit breaker configuration
